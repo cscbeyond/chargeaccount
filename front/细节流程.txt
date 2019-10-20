@@ -1,0 +1,7 @@
+用户第一次进入
+
+获取jscode，用jscode查openid
+/login/getOpenIdByJscode.api
+
+前端用openid查用户的记账记录
+/search/searchRecord.api

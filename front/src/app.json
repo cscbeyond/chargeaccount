@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/charts/main",
+        "pages/chargeAccount/main",
+        "pages/bill/main",
+        "pages/mine/main",
+        "pages/exchange/main",
+        "pages/about/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2CF2B4",
+        "navigationBarTitleText": "点滴账簿",
+        "navigationBarTextStyle": "white"
+    }
+}

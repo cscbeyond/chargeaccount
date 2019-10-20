@@ -1,0 +1,5 @@
+前端传过来jscode
+用jscode查openid
+把openid存入数据库
+返回给前端openid
+
