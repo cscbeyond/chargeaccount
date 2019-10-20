@@ -28,7 +28,7 @@
         </div>
         <div class="blk-10"></div>
 		<div class="activites">
-			<div class="save-plan">
+			<!-- <div class="save-plan">
 				<i class="iconfont icon-qian1"></i>
 				<p>存钱计划</p>
 			</div>
@@ -43,7 +43,7 @@
 			<div class="save-plan">
 				<i class="iconfont icon-qian1"></i>
 				<p>存钱计划</p>
-			</div>
+			</div> -->
 		</div>
         <div class="mid">
             <!-- <div class="options">
