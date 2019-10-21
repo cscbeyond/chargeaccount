@@ -10,7 +10,6 @@ function cscPost(url, data) {
 		})
         wx.request({
 			url: 'http://127.0.0.1:3003' + url,
-			// url: 'https://chensc.club' + url,
             method: 'POST',
             dataType: 'json',
             data: data,
