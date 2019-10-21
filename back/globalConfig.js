@@ -6,7 +6,7 @@ let db = mysql.createPool({
 	port: '3306',
 	database: 'chargeaccount',
 	user: MysqlUserName,
-	password: '123456'
+	password: '112233'
 })
 module.exports = {
 	MysqlUserName,
