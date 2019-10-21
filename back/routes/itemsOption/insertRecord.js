@@ -6,6 +6,7 @@ router.post('/insertrecord.api', function (req, res) {
 	let now = (new Date()).Format("yyyy-MM-dd hh:mm:ss");
 	let week = new Date().getDay() + 1;
 	let reqBody = req.body;
+	console.log(reqBody);
 	let openid = reqBody.openid;
 	let itemId = reqBody.itemId;
 	let count = reqBody.val;
@@ -13,7 +14,6 @@ router.post('/insertrecord.api', function (req, res) {
 	let icon = reqBody.icon;
 	let itemName = reqBody.itemName;
 	let des = reqBody.itemDes;
-
 	function sendRet(code, val) {
 		res.json({
 			code: code,

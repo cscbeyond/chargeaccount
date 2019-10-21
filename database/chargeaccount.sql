@@ -11,7 +11,7 @@
  Target Server Version : 50727
  File Encoding         : 65001
 
- Date: 20/10/2019 22:09:14
+ Date: 21/10/2019 23:44:20
 */
 
 SET NAMES utf8mb4;
@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `account_record`;
 CREATE TABLE `account_record` (
   `openid` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `item_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `count` bigint(16) DEFAULT NULL,
+  `count` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `create_time` datetime DEFAULT NULL,
   `total_days` int(16) DEFAULT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -33,7 +33,7 @@ CREATE TABLE `account_record` (
   `week` int(6) NOT NULL,
   `des` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=272 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=280 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Table structure for icons
@@ -46,7 +46,7 @@ CREATE TABLE `icons` (
   `openid` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `type` int(6) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=73 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Table structure for user
