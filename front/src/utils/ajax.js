@@ -9,12 +9,20 @@ function cscPost(url, data) {
             title: '加载中',
 		})
         wx.request({
-			url: 'http://127.0.0.1:3003' + url,
+			// url: 'http://127.0.0.1:3003' + url,
+			url: 'https://chensc.club' + url,
             method: 'POST',
             dataType: 'json',
             data: data,
             success: (res) => {
-				wx.hideLoading();
+                wx.hideLoading();
+                if(res.data.code == 250){
+                    wx.showToast({
+                        title: res.data.val,
+                        icon: 'none',
+                        duration: 2000,
+                    })
+                }
                 resolve(res);
             },
             fail: (err) => {

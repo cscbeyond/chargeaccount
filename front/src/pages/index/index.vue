@@ -10,7 +10,7 @@
 						</label>
 						<div class="blk-20"></div>
 						<label class="edie-label" for="editCount">
-							金额：<input v-model="editCount" id="editCount" type="number">
+							金额：<input v-model="editCount" id="editCount" type="text">
 						</label>
 						<div style="height:30rpx;"></div>
 					</div>
